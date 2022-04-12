@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset2.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>recruitment form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form__header">
+            <h1 class="form__header-title">Recruitment Form</h1>
+            <p class="form__header-text">Please fill out the form. 
+                Pay attention to filling in the fields, 
+                this is very important and may affect the consideration of your application.
+            </p>
+        </div>
+        <div class="form__body">
+            <form class="form" enctype="multipart/form-data" action="action.php" method="post" >
+                <label class="form__title" for="name">Enter your name,lastname and age</label>
+                <input class="input" type="text" name="name" placeholder="enter your name">
+                <input class="input" type="text" name="lastname" placeholder="enter your last name">
+                <input class="input" type="text" name="age" placeholder="enter your age">
+                
+                <label class="form__title" for="gender">Enter your gender</label>
+                <input class="radio" type="radio" name="gender" value="male"><span class="radio-title">Male</span>
+                <input class="radio" type="radio" name="gender" value="female"><span class="radio-title">Female</span>
+                
+                <label class="form__title" for="language">What languages ​​do you know</label>
+                <select class="selection" name="language[]" multiple="true" size="6" id="selection">
+                    <option>Make your choice</option>
+                    <option value="English">English</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Deutsch">Deutsch</option>
+                    <option value="French">French</option>
+                    <option value="Italian">Italian</option>
+                </select>
+                <label class="form__title" for="Dicaprios">What is the name of the actor DiCaprio</label>
+                <input class="input" type="text" name="DiCaprio" placeholder="DiCaprios name">
+                <input class="send-button" type="submit" value="SEND">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

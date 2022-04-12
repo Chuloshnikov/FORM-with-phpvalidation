@@ -1,0 +1,149 @@
+body {
+    font-family: 'Akshar', sans-serif;
+    background-color: rgb(235, 121, 55);
+    box-sizing: border-box;
+}
+
+.input {
+    -webkit-box-shadow: 0px 3px 7px 2px rgba(80, 77, 34, 0.2) inset;
+    -moz-box-shadow: 0px 3px 7px 2px rgba(80, 77, 34, 0.2) inset;
+    box-shadow: 0px 3px 7px 2px rgba(80, 77, 34, 0.2) inset;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0px auto;
+    display: flex;
+    font-size: 18px;
+}
+
+.radio {
+    position: relative;
+    left: 80px;
+    
+}
+.radio-title {
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    left: 80px;
+}
+
+.selection {
+    position: relative;
+    left: 80px;
+}
+.wrapper {
+    background-color: rgb(235, 121, 55);
+    padding-bottom: 50px;
+    
+}
+.form__header {
+    text-align: center;
+    padding-top: 20px;
+
+}
+.form__header-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0px;
+
+}
+.form__header-text {
+    display: block;
+    max-width: 500px;
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form__body {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: rgb(240, 236, 224);
+    max-width: 500px;
+    max-height: 800px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.form {
+    
+    
+    
+    
+}
+.form__title {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: rgb(197, 78, 31);
+    color: aliceblue;
+    display: flex;
+    display: block;
+    padding: 4px 0px;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 80px;
+    padding: 0 auto;
+    border-radius: 5px;
+}
+.send-button {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(219, 62, 0);
+    padding: 10px 50px;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.send-button:hover {
+    background-color: rgb(182, 52, 0);
+    color: aliceblue;
+    
+}
+
+@media (max-width: 380px) {
+    .radio {
+        left: 67px;
+        
+    }
+
+    .selection {
+        position: relative;
+        left: 67px;
+    }
+
+
+    .radio-title {
+        font-weight: 400;
+        font-size: 12px;
+        left: 67px;
+    }
+}
+
+@media (max-width: 330px) {
+    .radio {
+        left: 80px;
+        
+    }
+
+    .selection {
+        position: relative;
+        left: 80px;
+    }
+
+    .radio-title {
+        font-weight: 400;
+        font-size: 12px;
+        left: 80px;
+    }
+
+  
+}
